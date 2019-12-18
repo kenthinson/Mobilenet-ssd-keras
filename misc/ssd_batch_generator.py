@@ -559,7 +559,7 @@ class BatchGenerator:
             # print image_id
             img = cv2.imread(image_id)
             if img is None:
-                print image_id.strip()
+                print(image_id.strip())
                 continue
             W, H = img.shape[1], img.shape[0]
 
